@@ -1,38 +1,140 @@
-.App {
+.App{
+  top: 0;
+  box-sizing: border-box;
+  background-color: rgb(80, 69, 69);
+}
+/*start nav*/
+.navbare{
+  width: 100%;
+  position: fixed;
+  background-color: rgb(33, 31, 31);
+  height: 11vh;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vh;
+  align-items: center;
+}
+nav h1{
+  color: rgb(223, 223, 20);
+  font-size: 30px;
+}
+
+
+.sth{
+  display: flex;
+  gap:15px;
+}
+.sth input{
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.sth button{
+  border: none;
+  border-radius: 10px ;
+  padding: 15px;
+  background-color: rgb(223, 223, 20) ;
+}
+/*end nav*/
+/*start card*/
+.card{
+  width:30%;
   text-align: center;
+  border: 1px solid bisque;
+  border-radius: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card img{
+  width:100%;
+  height: 90%;
+  border: none;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card img:hover{
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card h1{
+  margin: auto 0;
+}
+.card h1:hover{
+  color: red;
+}
+.List{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  row-gap: 20px;
+  padding-top: 15vh;
+  margin-left: 5vh ;
+}
+/*end card*/
+/*start modal*/
+.bigModal{
+  background-color: rgba(0, 0, 0, 0.49);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.Modal{
+  background-color: aliceblue;
+  display: flex;
+  width: 50%;
+  height:60%;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+}
+.Modal img{
+  width: 50%;
+  height:100%;
+}
+.Modal button{
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 100px;
+}
+.something{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+/*end modal*/
+.Modale{
+  background-color: aliceblue;
+  width: 50%;
+  height:60%;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  padding: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Modale >button{
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 100px;
+}
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  text-align: center;
+}
+.addbtn{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
 }
