@@ -24,7 +24,7 @@ const AddModal = ({setshowadd,newmovie,setnewmovie,addmovie}) => {
             <h2>description:</h2>
             <input type="text" placeholder='description of the film' onChange={(e)=>setnewmovie({...newmovie,description:e.target.value})}/>
             </div>
-            <button className='addbtn' onClick={()=>{addmovie(newmovie);setshowadd(false)}}>ADD</button>
+            <button className='addbtn btn' onClick={()=>{addmovie(newmovie);setshowadd(false)}}>ADD</button>
             
             
             

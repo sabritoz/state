@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import MovieModal from './MovieModal'
 
-const Moviescards = ({el}) => {
+const MoviesCard = ({el}) => {
     const [show, setshow] = useState(false)
   return (
     <div className='card'>
@@ -13,4 +13,4 @@ const Moviescards = ({el}) => {
   )
 }
 
-export default Moviescards
+export default MoviesCard
