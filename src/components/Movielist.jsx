@@ -1,6 +1,6 @@
 import React from 'react'
 import MoviesCard from './MoviesCard'
-import MovieModal from './MovieModal'
+
 
 const MovieList = ({Movies,search}) => {
   return (

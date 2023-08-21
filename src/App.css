@@ -31,7 +31,7 @@ nav h1{
   border-radius: 20px;
   padding: 10px;
 }
-.sth button{
+.btn{
   border: none;
   border-radius: 10px ;
   padding: 15px;
@@ -137,4 +137,45 @@ nav h1{
   right: 0;
   bottom: 0;
   margin: 10px;
+}
+.front{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.font h1{
+  
+}
+.front img{
+  
+ width: 65%;
+}
+.front div{
+  text-align: center;
+  color: white;
+
+}
+.front div h1{
+  top:0;
+  padding: 15px;
+  color: rgb(223, 223, 20) ;
+}
+.Home{
+  position: relative;
+}
+.button{
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(223, 223, 20);
+  position: absolute;
+  bottom: 0;
+  left:0;
+  margin: 10vh;
+  font-size: 35px;
+  padding: 10px;
+  position: fixed;
 }
